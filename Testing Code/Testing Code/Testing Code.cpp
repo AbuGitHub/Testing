@@ -5,9 +5,17 @@
 int add(int x, int y)
 {
 	int z = x + y;
-	std::cout << "The sum of " << x << " and " << y << " is: " << z << std::endl;
+	std::cout << x << " plus " << y << " is " << z << std::endl;
 	return z;
 }
+
+//Subtraction
+int subtract(int x, int y)
+{
+	int z = x - y;
+	std::cout << x << " minus " << y << " is " << z << std::endl;
+	return z;
+} 
 
 // Main calculator
 int main()
