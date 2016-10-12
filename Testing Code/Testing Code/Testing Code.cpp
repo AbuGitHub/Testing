@@ -27,6 +27,5 @@ int main()
 	std::cin >> y;
 	std::cout << "Thank you, please hold on while your numbers are added..." << std::endl;
 	add(x, y);
-	std::cout << "Glad I could help!" << std::endl;
 	return 0;
 }
