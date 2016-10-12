@@ -17,6 +17,23 @@ int subtract(int x, int y)
 	return z;
 } 
 
+//Multiiplication
+int multiply(int x, int y)
+{
+	int z = x * y;
+	std::cout << x << " times " << y << " is " << z << std::endl;
+	return z;
+}
+
+//Division
+int divide(int x, int y)
+{
+	int z = x / y;
+	int w = x % y;
+	std::cout << x << " divided by " << y << " is " << z << " with a remainder of " << w << std::endl;
+	return z;
+}
+
 // Main calculator
 int main()
 {
@@ -27,5 +44,8 @@ int main()
 	std::cin >> y;
 	std::cout << "Thank you, please hold on while your numbers are added..." << std::endl;
 	add(x, y);
+	subtract(x, y);
+	multiply(x, y);
+	divide(x, y);
 	return 0;
 }
