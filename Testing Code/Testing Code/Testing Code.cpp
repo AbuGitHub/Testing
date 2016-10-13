@@ -4,33 +4,37 @@
 // Addition
 int add(int x, int y)
 {
+	using namespace std;
 	int z = x + y;
-	std::cout << x << " plus " << y << " is " << z << std::endl;
+	cout << x << " plus " << y << " is " << z << endl;
 	return z;
 }
 
 //Subtraction
 int subtract(int x, int y)
 {
+	using namespace std;
 	int z = x - y;
-	std::cout << x << " minus " << y << " is " << z << std::endl;
+	cout << x << " minus " << y << " is " << z << endl;
 	return z;
 } 
 
 //Multiiplication
 int multiply(int x, int y)
 {
+	using namespace std;
 	int z = x * y;
-	std::cout << x << " times " << y << " is " << z << std::endl;
+	cout << x << " times " << y << " is " << z << endl;
 	return z;
 }
 
 //Division
 int divide(int x, int y)
 {
+	using namespace std;
 	int z = x / y;
 	int w = x % y;
-	std::cout << x << " divided by " << y << " is " << z << " with a remainder of " << w << std::endl;
+	cout << x << " divided by " << y << " is " << z << " with a remainder of " << w << endl;
 	return z;
 }
 
